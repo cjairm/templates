@@ -1,7 +1,10 @@
 {
   "name": "templates",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "engines": {
+    "node": "14.19.0"
+  },
   "dependencies": {
     "@storybook/addon-postcss": "^2.0.0",
     "@testing-library/jest-dom": "^5.16.2",
