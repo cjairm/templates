@@ -5,6 +5,9 @@
   "engines": {
     "node": "14.19.0"
   },
+  "resolutions": {
+    "webpack": "5.41.1"
+  },
   "dependencies": {
     "@storybook/addon-postcss": "^2.0.0",
     "@testing-library/jest-dom": "^5.16.2",
@@ -52,11 +55,11 @@
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
-    "@storybook/addon-actions": "^6.4.19",
-    "@storybook/addon-essentials": "^6.4.19",
-    "@storybook/addon-interactions": "^6.4.19",
-    "@storybook/addon-links": "^6.4.19",
-    "@storybook/react": "^6.4.19",
+    "@storybook/addon-actions": "^6.5.0-alpha.42",
+    "@storybook/addon-essentials": "^6.5.0-alpha.42",
+    "@storybook/addon-interactions": "^6.5.0-alpha.42",
+    "@storybook/addon-links": "^6.5.0-alpha.42",
+    "@storybook/react": "^6.5.0-alpha.42",
     "@storybook/testing-library": "^0.0.9",
     "babel-loader": "^8.2.3",
     "bulma": "^0.9.3",
@@ -70,5 +73,9 @@
   "peerDependencies": {
     "semantic-release": ">=16.0.0 <17.0.0"
   },
-  "release": { "branches": [ "main" ] }
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
 }
