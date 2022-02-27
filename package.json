@@ -6,7 +6,8 @@
     "node": "14.19.0"
   },
   "resolutions": {
-    "webpack": "5.41.1"
+    "webpack": "5.41.1",
+    "react-error-overlay": "6.0.9"
   },
   "dependencies": {
     "@storybook/addon-postcss": "^2.0.0",
@@ -55,11 +56,11 @@
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
-    "@storybook/addon-actions": "^6.5.0-alpha.42",
-    "@storybook/addon-essentials": "^6.5.0-alpha.42",
-    "@storybook/addon-interactions": "^6.5.0-alpha.42",
-    "@storybook/addon-links": "^6.5.0-alpha.42",
-    "@storybook/react": "^6.5.0-alpha.42",
+    "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-interactions": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/react": "^6.4.19",
     "@storybook/testing-library": "^0.0.9",
     "babel-loader": "^8.2.3",
     "bulma": "^0.9.3",
