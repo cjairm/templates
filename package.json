@@ -6,11 +6,6 @@
     "node": "14.19.0"
   },
   "resolutions": {
-    "@storybook/react/webpack": "^5",
-    "@storybook/core-common/webpack": "^5",
-    "@storybook/core-server/webpack": "^5",
-    "@storybook/builder-webpack4/webpack": "^5",
-    "@storybook/manager-webpack4/webpack": "^5",
     "react-error-overlay": "6.0.9"
   },
   "dependencies": {
