@@ -9,7 +9,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 14
+          node-version: 12
+      - name: Install dependencies
+        run: npm install
       - name: Semantic release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
