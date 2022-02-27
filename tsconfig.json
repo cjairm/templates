@@ -23,5 +23,9 @@
   },
   "include": [
     "src"
-  ]
+  ],
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
 }
