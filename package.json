@@ -1,7 +1,25 @@
 {
   "name": "@cjairm/templates",
   "version": "0.2.0",
-  "private": true,
+  "author": "Carlos Mendez",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "engineStrict": true,
+  "homepage": "https://github.com/cjairm/templates",
+  "bugs": {
+    "url": "https://github.com/cjairm/templates",
+    "email": "carlos@hadaelectronics.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cjairm/templates"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@storybook/addon-postcss": "^2.0.0",
     "@testing-library/jest-dom": "^5.16.2",
@@ -53,12 +71,5 @@
     "html-webpack-plugin": "^5.5.0",
     "moment": "^2.29.1",
     "storybook-css-modules-preset": "^1.1.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cjairm/templates"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/cjairm91"
   }
 }
