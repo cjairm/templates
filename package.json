@@ -2,12 +2,6 @@
   "name": "templates",
   "version": "0.2.0",
   "private": true,
-  "engines": {
-    "node": "14.19.0"
-  },
-  "resolutions": {
-    "react-error-overlay": "6.0.9"
-  },
   "dependencies": {
     "@storybook/addon-postcss": "^2.0.0",
     "@testing-library/jest-dom": "^5.16.2",
@@ -27,14 +21,6 @@
     "build": "build-storybook",
     "test": "react-scripts test"
   },
-  "plugins": [
-    "@semantic-release/commit-analyzer",
-    "@semantic-release/release-notes-generator",
-    "@semantic-release/changelog",
-    "@semantic-release/github",
-    "@semantic-release/npm",
-    "@semantic-release/git"
-  ],
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -66,15 +52,13 @@
     "lodash": "^4.17.21",
     "html-webpack-plugin": "^5.5.0",
     "moment": "^2.29.1",
-    "semantic-release": "^19.0.2",
     "storybook-css-modules-preset": "^1.1.1"
   },
-  "peerDependencies": {
-    "semantic-release": ">=16.0.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cjairm/templates"
   },
-  "release": {
-    "branches": [
-      "main"
-    ]
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/cjairm91"
   }
 }
