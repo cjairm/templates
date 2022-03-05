@@ -1,7 +1,8 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import { Hero, Content, OVERLAY_COLOR, HERO_HEIGHT } from "../layouts/Hero";
+import { Hero, OVERLAY_COLOR, HERO_HEIGHT } from "../layouts/Hero";
+import { Content } from "../layouts/Content";
 import { TEXT_ALIGNMENT, COLOR } from "../constants";
 
 export default {

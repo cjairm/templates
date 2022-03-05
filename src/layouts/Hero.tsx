@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 
 import { BulmaWrapper } from "../layouts/BulmaWrapper";
-import { COLOR, FLEX_POSITION, SIZE, TEXT_ALIGNMENT } from "../constants";
+import { COLOR, FLEX_POSITION, SIZE } from "../constants";
 
 export enum OVERLAY_COLOR {
   WHITE = "white",
@@ -103,19 +103,5 @@ const Overlay: FC<{ backgroundColor: OVERLAY_COLOR }> = ({
         opacity: "0.9",
       }}
     />
-  );
-};
-
-export const Content: FC<{
-  textAlignment?: TEXT_ALIGNMENT;
-  textSize?: SIZE;
-  children?: any;
-}> = ({ textAlignment, textSize, children }) => {
-  const textPositionClass = textAlignment ? " " + textAlignment : "";
-  const textSizeClass = textSize ? " " + textSize : "";
-  return (
-    <div className={`content${textPositionClass}${textSizeClass}`}>
-      {children}
-    </div>
   );
 };
